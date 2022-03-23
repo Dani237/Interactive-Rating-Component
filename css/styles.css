@@ -125,9 +125,7 @@ main {
     transform: scale(.8);
     transition: all .4s ease;
 }
-.cell {
-    margin-top: 1.8rem;
-}
+
 
 /* FOOTER */
 footer {
@@ -159,5 +157,8 @@ a {
         margin: 0 2rem;
         padding: 3rem 2.4rem;
         height: 38rem;
+    }
+    .cell {
+        margin-top: 1.8rem;
     }
 }
