@@ -22,3 +22,74 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
 }
+ul { padding: 0; }
+li { list-style-type: none; }
+h1, h2 {
+    font-size: 2.8rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CARD */
+
+.card {
+    max-width: 39rem;
+    background-color: var(--dark-blue);
+    padding: 3rem;
+    border-radius: 3rem;
+}
+.sombra {
+    background-color: hsl(220, 14%, 23%);
+    border-radius: 50%;
+    padding: 1.2rem;
+}
+.title {
+    color: var(--white);
+}
+.par, .numbers {
+    color: var(--medium-grey);;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.number {
+    background-color: hsl(220, 14%, 23%);
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.number:hover {
+    background-color: var(--medium-grey);
+    color: white;
+}
+.submit {
+    text-align: center;
+    margin-top: 3rem;
+    background-color: var(--orange);
+    border-radius: 3rem;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.submit:hover {
+    background-color: white;
+    color: var(--orange);
+}
+
+
+/* FOOTER */
