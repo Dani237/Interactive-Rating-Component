@@ -64,6 +64,7 @@ main {
     margin: 0;
 }
 .numbers {
+    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
