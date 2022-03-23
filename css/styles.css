@@ -125,6 +125,10 @@ main {
     transform: scale(.8);
     transition: all .4s ease;
 }
+.cell {
+    margin-top: 1.8rem;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
@@ -140,4 +144,20 @@ a {
 .set-orange-color {
     background-color: var(--orange);
     color: var(--white);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 37.5rem) {
+    body {
+        font-size: 1.4rem;
+    }
+    .title {
+        font-size: 2.6rem;
+    }
+    .card {
+        margin: 0 2rem;
+        padding: 3rem 2.4rem;
+        height: 38rem;
+    }
 }
