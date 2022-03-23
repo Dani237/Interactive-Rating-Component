@@ -24,9 +24,6 @@ body {
 }
 ul { padding: 0; }
 li { list-style-type: none; }
-h1, h2 {
-    font-size: 2.8rem;
-}
 
 main {
     display: flex;
@@ -39,9 +36,13 @@ main {
 
 .card {
     max-width: 39rem;
+    height: 39rem;
     background-color: var(--dark-blue);
-    padding: 3rem;
+    padding: 4rem 2.7rem;
     border-radius: 3rem;
+}
+.centrado {
+    text-align: center;
 }
 .sombra {
     background-color: hsl(220, 14%, 23%);
@@ -50,9 +51,15 @@ main {
 }
 .title {
     color: var(--white);
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
 }
 .par, .numbers {
     color: var(--medium-grey);;
+}
+.par {
+    margin: 0;
 }
 .numbers {
     display: flex;
@@ -91,5 +98,26 @@ main {
     color: var(--orange);
 }
 
+/* CARD 2 */
 
+.result {
+    display: inline-block;
+    color: var(--orange);
+    border-radius: 4rem;
+    background-color: hsl(220, 14%, 23%);
+    padding: .3rem 1.6rem;
+    margin-top: 2rem;
+}
+
+
+/* CARD SET */
+.first-card {
+    overflow: hidden;
+    z-index: 4;
+}
+
+.second-card {
+    position: absolute;
+    z-index: 1;
+}
 /* FOOTER */
